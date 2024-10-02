@@ -1,0 +1,74 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('hearts.png');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+  }
+  header {
+    background-color: #C3B1E1;
+    color: #000000;
+    padding: 10px;
+    text-align: center;
+    font-family: "Dancing Script", cursive;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+    font-size: 30px;
+  }
+  nav {
+    background-color: #A7C7E7;
+    display: flex;
+    justify-content: center;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 27px;
+  }
+  nav a {
+    color: #333;
+    text-decoration: none;
+    padding: 5px;
+  }
+  .gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 20px;
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: <400>;
+    font-style: normal;
+    font-size: 15px;
+  }
+  .gallery img {
+    height: 380px;
+    margin: 10px;
+    object-fit: cover;
+    width: 300px;
+  }
+  footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+  }
+  .BigImage{
+    display: flex;
+      justify-content: center;
+      padding: 20px;
+      font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: <400>;
+    font-style: normal;
+    font-size: 25px;
+  }
+  .BigImage img {
+    height: 500px;
+    width: 1000px;
+    object-fit: cover;
+  }
+
+
